@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "075076641D27CD3B00C4FDC2"
-               BuildableName = "NibLoader-macOS.framework"
+               BuildableName = "NibLoader.framework"
                BlueprintName = "NibLoader-macOS"
                ReferencedContainer = "container:NibLoader.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0750766D1D27CD3C00C4FDC2"
-               BuildableName = "NibLoaderTests-macOS.xctest"
+               BuildableName = "NibLoaderTests.xctest"
                BlueprintName = "NibLoaderTests-macOS"
                ReferencedContainer = "container:NibLoader.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "075076641D27CD3B00C4FDC2"
-            BuildableName = "NibLoader-macOS.framework"
+            BuildableName = "NibLoader.framework"
             BlueprintName = "NibLoader-macOS"
             ReferencedContainer = "container:NibLoader.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "075076641D27CD3B00C4FDC2"
-            BuildableName = "NibLoader-macOS.framework"
+            BuildableName = "NibLoader.framework"
             BlueprintName = "NibLoader-macOS"
             ReferencedContainer = "container:NibLoader.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "075076641D27CD3B00C4FDC2"
-            BuildableName = "NibLoader-macOS.framework"
+            BuildableName = "NibLoader.framework"
             BlueprintName = "NibLoader-macOS"
             ReferencedContainer = "container:NibLoader.xcodeproj">
          </BuildableReference>

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0750763B1D27CBFD00C4FDC2"
-               BuildableName = "NibLoader-iOS.framework"
+               BuildableName = "NibLoader.framework"
                BlueprintName = "NibLoader-iOS"
                ReferencedContainer = "container:NibLoader.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "075076451D27CBFD00C4FDC2"
-               BuildableName = "NibLoaderTests-iOS.xctest"
+               BuildableName = "NibLoaderTests.xctest"
                BlueprintName = "NibLoaderTests-iOS"
                ReferencedContainer = "container:NibLoader.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0750763B1D27CBFD00C4FDC2"
-            BuildableName = "NibLoader-iOS.framework"
+            BuildableName = "NibLoader.framework"
             BlueprintName = "NibLoader-iOS"
             ReferencedContainer = "container:NibLoader.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0750763B1D27CBFD00C4FDC2"
-            BuildableName = "NibLoader-iOS.framework"
+            BuildableName = "NibLoader.framework"
             BlueprintName = "NibLoader-iOS"
             ReferencedContainer = "container:NibLoader.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0750763B1D27CBFD00C4FDC2"
-            BuildableName = "NibLoader-iOS.framework"
+            BuildableName = "NibLoader.framework"
             BlueprintName = "NibLoader-iOS"
             ReferencedContainer = "container:NibLoader.xcodeproj">
          </BuildableReference>
