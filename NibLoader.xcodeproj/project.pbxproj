@@ -15,7 +15,7 @@
 		075076871D27CF7E00C4FDC2 /* NSView+NibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750765E1D27CD1700C4FDC2 /* NSView+NibLoader.swift */; };
 		0750768C1D27D0A200C4FDC2 /* NoTopLevelObjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0750768B1D27D0A200C4FDC2 /* NoTopLevelObjects.xib */; };
 		0750768E1D27D0B700C4FDC2 /* MultipleTopLevelObjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0750768D1D27D0B700C4FDC2 /* MultipleTopLevelObjects.xib */; };
-		075076901D27D0D300C4FDC2 /* TestClassView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0750768F1D27D0D300C4FDC2 /* TestClassView.xib */; };
+		075076901D27D0D300C4FDC2 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0750768F1D27D0D300C4FDC2 /* TestView.xib */; };
 		075076921D27D16600C4FDC2 /* NSView+NibLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075076911D27D16600C4FDC2 /* NSView+NibLoaderTests.swift */; };
 		075076941D27D1A100C4FDC2 /* NibLoadingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075076931D27D1A100C4FDC2 /* NibLoadingError.swift */; };
 		075076951D27D1A100C4FDC2 /* NibLoadingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075076931D27D1A100C4FDC2 /* NibLoadingError.swift */; };
@@ -54,7 +54,7 @@
 		075076801D27CD9500C4FDC2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = "<group>"; };
 		0750768B1D27D0A200C4FDC2 /* NoTopLevelObjects.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NoTopLevelObjects.xib; path = Tests/Fixtures/macOS/NoTopLevelObjects.xib; sourceTree = "<group>"; };
 		0750768D1D27D0B700C4FDC2 /* MultipleTopLevelObjects.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MultipleTopLevelObjects.xib; path = Tests/Fixtures/macOS/MultipleTopLevelObjects.xib; sourceTree = "<group>"; };
-		0750768F1D27D0D300C4FDC2 /* TestClassView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestClassView.xib; path = Tests/Fixtures/macOS/TestClassView.xib; sourceTree = "<group>"; };
+		0750768F1D27D0D300C4FDC2 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestView.xib; path = Tests/Fixtures/macOS/TestView.xib; sourceTree = "<group>"; };
 		075076911D27D16600C4FDC2 /* NSView+NibLoaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSView+NibLoaderTests.swift"; path = "Tests/macOS/NSView+NibLoaderTests.swift"; sourceTree = "<group>"; };
 		075076931D27D1A100C4FDC2 /* NibLoadingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NibLoadingError.swift; path = Sources/NibLoadingError.swift; sourceTree = SOURCE_ROOT; };
 		077B2D251D28238E003627E8 /* UIView+NibLoaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+NibLoaderTests.swift"; path = "Tests/iOS/UIView+NibLoaderTests.swift"; sourceTree = "<group>"; };
@@ -178,7 +178,7 @@
 			children = (
 				0750768B1D27D0A200C4FDC2 /* NoTopLevelObjects.xib */,
 				0750768D1D27D0B700C4FDC2 /* MultipleTopLevelObjects.xib */,
-				0750768F1D27D0D300C4FDC2 /* TestClassView.xib */,
+				0750768F1D27D0D300C4FDC2 /* TestView.xib */,
 			);
 			name = macOS;
 			sourceTree = "<group>";
@@ -369,7 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0750768E1D27D0B700C4FDC2 /* MultipleTopLevelObjects.xib in Resources */,
-				075076901D27D0D300C4FDC2 /* TestClassView.xib in Resources */,
+				075076901D27D0D300C4FDC2 /* TestView.xib in Resources */,
 				0750768C1D27D0A200C4FDC2 /* NoTopLevelObjects.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

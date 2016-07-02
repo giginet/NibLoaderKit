@@ -1,7 +1,7 @@
 import XCTest
 @testable import NibLoader
 
-class TestClassView: NSView {
+class TestView: NSView {
 }
 
 class NSView_NibLoaderTests: XCTestCase {
@@ -13,17 +13,17 @@ class NSView_NibLoaderTests: XCTestCase {
     }
     
     func testLoadFromNibName() {
-        let testClassView = try! TestClassView.view(fromNibNamed: "TestClassView",
-                                                    owner: self,
-                                                    bundle: bundle)
+        let testView = try! TestView.view(fromNibNamed: "TestView",
+                                          owner: self,
+                                          bundle: bundle)
         
-        XCTAssertEqual(testClassView.subviews.count, 1)
+        XCTAssertEqual(testView.subviews.count, 1)
     }
     
     func testLoadFromClass() {
-        let testClassView: TestClassView = try! TestClassView.view(owner: self,
-                                                                   bundle: bundle)
-        XCTAssertEqual(testClassView.subviews.count, 1)
+        let testView: TestView = try! TestView.view(owner: self,
+                                                    bundle: bundle)
+        XCTAssertEqual(testView.subviews.count, 1)
     }
     
     func testNibNotFound() {
