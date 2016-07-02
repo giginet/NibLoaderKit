@@ -19,6 +19,10 @@
 		075076921D27D16600C4FDC2 /* NSView+NibLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075076911D27D16600C4FDC2 /* NSView+NibLoaderTests.swift */; };
 		075076941D27D1A100C4FDC2 /* NibLoadingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075076931D27D1A100C4FDC2 /* NibLoadingError.swift */; };
 		075076951D27D1A100C4FDC2 /* NibLoadingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075076931D27D1A100C4FDC2 /* NibLoadingError.swift */; };
+		077B2D261D28238E003627E8 /* UIView+NibLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B2D251D28238E003627E8 /* UIView+NibLoaderTests.swift */; };
+		077B2D281D2823B7003627E8 /* NoTopLevelObjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = 077B2D271D2823B7003627E8 /* NoTopLevelObjects.xib */; };
+		077B2D2A1D2823D7003627E8 /* MultipleTopLevelObjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = 077B2D291D2823D7003627E8 /* MultipleTopLevelObjects.xib */; };
+		077B2D2C1D2823F3003627E8 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 077B2D2B1D2823F3003627E8 /* TestView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		0750768F1D27D0D300C4FDC2 /* TestClassView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestClassView.xib; path = Tests/Fixtures/macOS/TestClassView.xib; sourceTree = "<group>"; };
 		075076911D27D16600C4FDC2 /* NSView+NibLoaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSView+NibLoaderTests.swift"; path = "Tests/macOS/NSView+NibLoaderTests.swift"; sourceTree = "<group>"; };
 		075076931D27D1A100C4FDC2 /* NibLoadingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NibLoadingError.swift; path = Sources/NibLoadingError.swift; sourceTree = SOURCE_ROOT; };
+		077B2D251D28238E003627E8 /* UIView+NibLoaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+NibLoaderTests.swift"; path = "Tests/iOS/UIView+NibLoaderTests.swift"; sourceTree = "<group>"; };
+		077B2D271D2823B7003627E8 /* NoTopLevelObjects.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NoTopLevelObjects.xib; path = Tests/Fixtures/iOS/NoTopLevelObjects.xib; sourceTree = "<group>"; };
+		077B2D291D2823D7003627E8 /* MultipleTopLevelObjects.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MultipleTopLevelObjects.xib; path = Tests/Fixtures/iOS/MultipleTopLevelObjects.xib; sourceTree = "<group>"; };
+		077B2D2B1D2823F3003627E8 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestView.xib; path = Tests/Fixtures/iOS/TestView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				075076891D27D03A00C4FDC2 /* Fixtures */,
+				077B2D241D282369003627E8 /* iOS */,
 				075076881D27D03500C4FDC2 /* macOS */,
 				075076801D27CD9500C4FDC2 /* Info.plist */,
 			);
@@ -158,6 +167,7 @@
 		075076891D27D03A00C4FDC2 /* Fixtures */ = {
 			isa = PBXGroup;
 			children = (
+				077B2D231D282355003627E8 /* iOS */,
 				0750768A1D27D03E00C4FDC2 /* macOS */,
 			);
 			name = Fixtures;
@@ -171,6 +181,24 @@
 				0750768F1D27D0D300C4FDC2 /* TestClassView.xib */,
 			);
 			name = macOS;
+			sourceTree = "<group>";
+		};
+		077B2D231D282355003627E8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				077B2D271D2823B7003627E8 /* NoTopLevelObjects.xib */,
+				077B2D291D2823D7003627E8 /* MultipleTopLevelObjects.xib */,
+				077B2D2B1D2823F3003627E8 /* TestView.xib */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		077B2D241D282369003627E8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				077B2D251D28238E003627E8 /* UIView+NibLoaderTests.swift */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +351,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077B2D281D2823B7003627E8 /* NoTopLevelObjects.xib in Resources */,
+				077B2D2C1D2823F3003627E8 /* TestView.xib in Resources */,
+				077B2D2A1D2823D7003627E8 /* MultipleTopLevelObjects.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077B2D261D28238E003627E8 /* UIView+NibLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
