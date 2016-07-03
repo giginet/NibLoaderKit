@@ -6,7 +6,7 @@
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) 
 [![Platform](https://img.shields.io/cocoapods/p/NibLoaderKit.svg?style=flat)](http://cocoadocs.org/docsets/NibLoaderKit)
 
-This is a micro utility to create UIView/NSView from nib files.
+This is a tiny utility to load UIView/NSView from nibs.
 
 # Usage
 
@@ -32,12 +32,12 @@ class CustomView: UIView { }
 let customView: CustomView = CustomView.view(withOwner: self)
 ```
 
-`CustomView.xib` will be loaded and generated the view.
+`CustomView.xib` will be loaded and generate the view.
 
 You can also pass the nibName and bundle.
 
 ```swift
-let customView: CustomView = UIView.view(
+let customView: UIView = UIView.view(
     fromNibNamed: "MyCustomView", 
     owner: self, 
     bundle: NSBundle(forClass: self.dynamicType)
