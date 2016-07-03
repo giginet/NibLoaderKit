@@ -44,7 +44,23 @@ let customView: CustomView = UIView.view(
 )
 ```
 
-## Requirements
+# Installation
+
+## Carthage
+
+```
+github "giginet/NibLoader"
+```
+
+## CocoaPods
+
+```ruby
+use_frameworks!
+
+pod 'giginet/NibLoader'
+```
+
+# Requirements
 
 - >= iOS 8
 - >= macOS 10.10
