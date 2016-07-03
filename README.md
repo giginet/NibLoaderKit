@@ -31,10 +31,10 @@ let customView: CustomView = CustomView.view(withOwner: self)
 You can also pass the nibName and bundle.
 
 ```swift
-let customView: CustomView = CustomView.view(
-        fromNibNamed: "MyCustomView", 
-        owner: self, 
-        bundle: NSBundle(forClass: self.dynamicType)
+let customView: CustomView = UIView.view(
+    fromNibNamed: "MyCustomView", 
+    owner: self, 
+    bundle: NSBundle(forClass: self.dynamicType)
 )
 ```
 
