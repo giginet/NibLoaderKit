@@ -1,4 +1,10 @@
-# NibLoader
+# NibLoader 
+
+[![Build Status](https://travis-ci.org/giginet/NibLoader.svg?branch=master)](https://travis-ci.org/giginet/NibLoader) 
+[![codecov](https://codecov.io/gh/giginet/NibLoader/branch/master/graph/badge.svg)](https://codecov.io/gh/giginet/NibLoader) 
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/NibLoader.svg)](https://img.shields.io/cocoapods/v/NibLoader.svg)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) 
+[![Platform](https://img.shields.io/cocoapods/p/NibLoader.svg?style=flat)](http://cocoadocs.org/docsets/NibLoader)
 
 This is a micro utility to create UIView/NSView from nib files.
 

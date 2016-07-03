@@ -1,11 +1,3 @@
-//
-//  NibLoader.h
-//  NibLoader
-//
-//  Created by giginet on 7/2/16.
-//  Copyright © 2016 giginet. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
 //! Project version number for NibLoader.
