@@ -17,4 +17,4 @@ codecov:
     behavior: default
 coverage:
   ignore:
-    - Tests/NibLoader/*
+    - Tests/NibLoader/iOS/*
