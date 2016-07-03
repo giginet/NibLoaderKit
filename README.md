@@ -26,18 +26,20 @@ class CustomView: UIView { }
 
 ![](https://raw.githubusercontent.com/giginet/NibLoaderKit/master/Documentation/Images/custom_view.png)
 
-## 4. Load from code
+## 4. Load from the code
 
 ```swift
-let customView: CustomView = CustomView.view(withOwner: self)
+let customView: CustomView = try! CustomView.view(withOwner: self)
 ```
 
 `CustomView.xib` will be loaded and generate the view.
 
+Nib names are guessed automatically by class name. they would be demodulized.
+
 You can also pass the nibName and bundle.
 
 ```swift
-let customView: UIView = UIView.view(
+let customView: UIView = try! UIView.view(
     fromNibNamed: "MyCustomView", 
     owner: self, 
     bundle: NSBundle(forClass: self.dynamicType)
