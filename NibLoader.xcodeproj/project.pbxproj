@@ -7,33 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0726CC261D28B8D80040CA10 /* UIView+NibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750765B1D27CCD800C4FDC2 /* UIView+NibLoader.swift */; };
+		0726CC271D28B8FD0040CA10 /* UIView+NibLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C7475E1D28B60600AC42E4 /* UIView+NibLoaderTests.swift */; };
 		075076471D27CBFD00C4FDC2 /* NibLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0750763C1D27CBFD00C4FDC2 /* NibLoader.framework */; };
 		075076591D27CC7E00C4FDC2 /* NibLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 075076571D27CC7E00C4FDC2 /* NibLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0750765C1D27CCD800C4FDC2 /* UIView+NibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750765B1D27CCD800C4FDC2 /* UIView+NibLoader.swift */; };
 		0750766F1D27CD3C00C4FDC2 /* NibLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075076651D27CD3B00C4FDC2 /* NibLoader.framework */; };
 		075076861D27CF6900C4FDC2 /* NibLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 075076571D27CC7E00C4FDC2 /* NibLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		075076871D27CF7E00C4FDC2 /* NSView+NibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750765E1D27CD1700C4FDC2 /* NSView+NibLoader.swift */; };
-		0750768C1D27D0A200C4FDC2 /* NoTopLevelObjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0750768B1D27D0A200C4FDC2 /* NoTopLevelObjects.xib */; };
-		0750768E1D27D0B700C4FDC2 /* MultipleTopLevelObjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0750768D1D27D0B700C4FDC2 /* MultipleTopLevelObjects.xib */; };
-		075076901D27D0D300C4FDC2 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0750768F1D27D0D300C4FDC2 /* TestView.xib */; };
-		075076921D27D16600C4FDC2 /* NSView+NibLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075076911D27D16600C4FDC2 /* NSView+NibLoaderTests.swift */; };
 		075076941D27D1A100C4FDC2 /* NibLoadingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075076931D27D1A100C4FDC2 /* NibLoadingError.swift */; };
 		075076951D27D1A100C4FDC2 /* NibLoadingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075076931D27D1A100C4FDC2 /* NibLoadingError.swift */; };
-		077B2D261D28238E003627E8 /* UIView+NibLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B2D251D28238E003627E8 /* UIView+NibLoaderTests.swift */; };
-		077B2D281D2823B7003627E8 /* NoTopLevelObjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = 077B2D271D2823B7003627E8 /* NoTopLevelObjects.xib */; };
-		077B2D2A1D2823D7003627E8 /* MultipleTopLevelObjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = 077B2D291D2823D7003627E8 /* MultipleTopLevelObjects.xib */; };
-		077B2D2C1D2823F3003627E8 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 077B2D2B1D2823F3003627E8 /* TestView.xib */; };
-		07C747261D28B38300AC42E4 /* NibLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C7471C1D28B38300AC42E4 /* NibLoader.framework */; };
+		0777BC5E1D28B7E800DB9865 /* NibLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C7471C1D28B38300AC42E4 /* NibLoader.framework */; };
 		07C747331D28B40400AC42E4 /* NibLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 075076571D27CC7E00C4FDC2 /* NibLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07C747341D28B40900AC42E4 /* NibLoadingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075076931D27D1A100C4FDC2 /* NibLoadingError.swift */; };
-		07C747351D28B40C00AC42E4 /* UIView+NibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750765B1D27CCD800C4FDC2 /* UIView+NibLoader.swift */; };
-		07C747361D28B41200AC42E4 /* UIView+NibLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B2D251D28238E003627E8 /* UIView+NibLoaderTests.swift */; };
-		07C747391D28B43C00AC42E4 /* NoTopLevelObjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C747381D28B43C00AC42E4 /* NoTopLevelObjects.xib */; };
-		07C7473C1D28B46400AC42E4 /* MultipleTopLevelObjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C7473A1D28B46400AC42E4 /* MultipleTopLevelObjects.xib */; };
-		07C7473D1D28B46400AC42E4 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C7473B1D28B46400AC42E4 /* TestView.xib */; };
-		07C7473E1D28B4D400AC42E4 /* NoTopLevelObjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C747381D28B43C00AC42E4 /* NoTopLevelObjects.xib */; };
-		07C7473F1D28B4D500AC42E4 /* MultipleTopLevelObjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C7473A1D28B46400AC42E4 /* MultipleTopLevelObjects.xib */; };
-		07C747401D28B4D700AC42E4 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C7473B1D28B46400AC42E4 /* TestView.xib */; };
+		07C7474C1D28B5D800AC42E4 /* MultipleTopLevelObjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C747491D28B5D800AC42E4 /* MultipleTopLevelObjects.xib */; };
+		07C7474D1D28B5D800AC42E4 /* NoTopLevelObjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C7474A1D28B5D800AC42E4 /* NoTopLevelObjects.xib */; };
+		07C7474E1D28B5D800AC42E4 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C7474B1D28B5D800AC42E4 /* TestView.xib */; };
+		07C747531D28B5E100AC42E4 /* MultipleTopLevelObjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C747501D28B5E100AC42E4 /* MultipleTopLevelObjects.xib */; };
+		07C747541D28B5E100AC42E4 /* NoTopLevelObjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C747511D28B5E100AC42E4 /* NoTopLevelObjects.xib */; };
+		07C747551D28B5E100AC42E4 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C747521D28B5E100AC42E4 /* TestView.xib */; };
+		07C7475A1D28B5FD00AC42E4 /* MultipleTopLevelObjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C747571D28B5FD00AC42E4 /* MultipleTopLevelObjects.xib */; };
+		07C7475B1D28B5FD00AC42E4 /* NoTopLevelObjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C747581D28B5FD00AC42E4 /* NoTopLevelObjects.xib */; };
+		07C7475C1D28B5FD00AC42E4 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C747591D28B5FD00AC42E4 /* TestView.xib */; };
+		07C7475F1D28B60600AC42E4 /* UIView+NibLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C7475E1D28B60600AC42E4 /* UIView+NibLoaderTests.swift */; };
+		07C747621D28B61500AC42E4 /* NSView+NibLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C747611D28B61500AC42E4 /* NSView+NibLoaderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,21 +66,21 @@
 		0750765E1D27CD1700C4FDC2 /* NSView+NibLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSView+NibLoader.swift"; path = "Sources/macOS/NSView+NibLoader.swift"; sourceTree = SOURCE_ROOT; };
 		075076651D27CD3B00C4FDC2 /* NibLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NibLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0750766E1D27CD3C00C4FDC2 /* NibLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NibLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		075076801D27CD9500C4FDC2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = "<group>"; };
-		0750768B1D27D0A200C4FDC2 /* NoTopLevelObjects.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NoTopLevelObjects.xib; path = Tests/Fixtures/macOS/NoTopLevelObjects.xib; sourceTree = "<group>"; };
-		0750768D1D27D0B700C4FDC2 /* MultipleTopLevelObjects.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MultipleTopLevelObjects.xib; path = Tests/Fixtures/macOS/MultipleTopLevelObjects.xib; sourceTree = "<group>"; };
-		0750768F1D27D0D300C4FDC2 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestView.xib; path = Tests/Fixtures/macOS/TestView.xib; sourceTree = "<group>"; };
-		075076911D27D16600C4FDC2 /* NSView+NibLoaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSView+NibLoaderTests.swift"; path = "Tests/macOS/NSView+NibLoaderTests.swift"; sourceTree = "<group>"; };
 		075076931D27D1A100C4FDC2 /* NibLoadingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NibLoadingError.swift; path = Sources/NibLoadingError.swift; sourceTree = SOURCE_ROOT; };
-		077B2D251D28238E003627E8 /* UIView+NibLoaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+NibLoaderTests.swift"; path = "Tests/iOS/UIView+NibLoaderTests.swift"; sourceTree = "<group>"; };
-		077B2D271D2823B7003627E8 /* NoTopLevelObjects.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NoTopLevelObjects.xib; path = Tests/Fixtures/iOS/NoTopLevelObjects.xib; sourceTree = "<group>"; };
-		077B2D291D2823D7003627E8 /* MultipleTopLevelObjects.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MultipleTopLevelObjects.xib; path = Tests/Fixtures/iOS/MultipleTopLevelObjects.xib; sourceTree = "<group>"; };
-		077B2D2B1D2823F3003627E8 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestView.xib; path = Tests/Fixtures/iOS/TestView.xib; sourceTree = "<group>"; };
 		07C7471C1D28B38300AC42E4 /* NibLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NibLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C747251D28B38300AC42E4 /* NibLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NibLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		07C747381D28B43C00AC42E4 /* NoTopLevelObjects.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NoTopLevelObjects.xib; path = Tests/Fixtures/tvOS/NoTopLevelObjects.xib; sourceTree = "<group>"; };
-		07C7473A1D28B46400AC42E4 /* MultipleTopLevelObjects.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MultipleTopLevelObjects.xib; path = Tests/Fixtures/tvOS/MultipleTopLevelObjects.xib; sourceTree = "<group>"; };
-		07C7473B1D28B46400AC42E4 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestView.xib; path = Tests/Fixtures/tvOS/TestView.xib; sourceTree = "<group>"; };
+		07C747411D28B5A900AC42E4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/NibLoader/Info.plist; sourceTree = "<group>"; };
+		07C747491D28B5D800AC42E4 /* MultipleTopLevelObjects.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultipleTopLevelObjects.xib; sourceTree = "<group>"; };
+		07C7474A1D28B5D800AC42E4 /* NoTopLevelObjects.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoTopLevelObjects.xib; sourceTree = "<group>"; };
+		07C7474B1D28B5D800AC42E4 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		07C747501D28B5E100AC42E4 /* MultipleTopLevelObjects.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultipleTopLevelObjects.xib; sourceTree = "<group>"; };
+		07C747511D28B5E100AC42E4 /* NoTopLevelObjects.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoTopLevelObjects.xib; sourceTree = "<group>"; };
+		07C747521D28B5E100AC42E4 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		07C747571D28B5FD00AC42E4 /* MultipleTopLevelObjects.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultipleTopLevelObjects.xib; sourceTree = "<group>"; };
+		07C747581D28B5FD00AC42E4 /* NoTopLevelObjects.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoTopLevelObjects.xib; sourceTree = "<group>"; };
+		07C747591D28B5FD00AC42E4 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		07C7475E1D28B60600AC42E4 /* UIView+NibLoaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NibLoaderTests.swift"; sourceTree = "<group>"; };
+		07C747611D28B61500AC42E4 /* NSView+NibLoaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSView+NibLoaderTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07C747261D28B38300AC42E4 /* NibLoader.framework in Frameworks */,
+				0777BC5E1D28B7E800DB9865 /* NibLoader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,69 +185,74 @@
 		0750767F1D27CD8200C4FDC2 /* NibLoaderTests */ = {
 			isa = PBXGroup;
 			children = (
-				075076891D27D03A00C4FDC2 /* Fixtures */,
-				077B2D241D282369003627E8 /* iOS */,
-				075076881D27D03500C4FDC2 /* macOS */,
-				075076801D27CD9500C4FDC2 /* Info.plist */,
+				07C7475D1D28B60600AC42E4 /* iOS */,
+				07C747601D28B61500AC42E4 /* macOS */,
+				07C747451D28B5C100AC42E4 /* Fixtures */,
+				07C747411D28B5A900AC42E4 /* Info.plist */,
 			);
 			name = NibLoaderTests;
 			sourceTree = "<group>";
 		};
-		075076881D27D03500C4FDC2 /* macOS */ = {
+		07C747451D28B5C100AC42E4 /* Fixtures */ = {
 			isa = PBXGroup;
 			children = (
-				075076911D27D16600C4FDC2 /* NSView+NibLoaderTests.swift */,
-			);
-			name = macOS;
-			sourceTree = "<group>";
-		};
-		075076891D27D03A00C4FDC2 /* Fixtures */ = {
-			isa = PBXGroup;
-			children = (
-				07C747371D28B41F00AC42E4 /* tvOS */,
-				077B2D231D282355003627E8 /* iOS */,
-				0750768A1D27D03E00C4FDC2 /* macOS */,
+				07C747561D28B5FD00AC42E4 /* tvOS */,
+				07C7474F1D28B5E100AC42E4 /* macOS */,
+				07C747481D28B5D800AC42E4 /* iOS */,
 			);
 			name = Fixtures;
 			sourceTree = "<group>";
 		};
-		0750768A1D27D03E00C4FDC2 /* macOS */ = {
+		07C747481D28B5D800AC42E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0750768B1D27D0A200C4FDC2 /* NoTopLevelObjects.xib */,
-				0750768D1D27D0B700C4FDC2 /* MultipleTopLevelObjects.xib */,
-				0750768F1D27D0D300C4FDC2 /* TestView.xib */,
+				07C747491D28B5D800AC42E4 /* MultipleTopLevelObjects.xib */,
+				07C7474A1D28B5D800AC42E4 /* NoTopLevelObjects.xib */,
+				07C7474B1D28B5D800AC42E4 /* TestView.xib */,
+			);
+			name = iOS;
+			path = Tests/NibLoader/Fixtures/iOS;
+			sourceTree = "<group>";
+		};
+		07C7474F1D28B5E100AC42E4 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				07C747501D28B5E100AC42E4 /* MultipleTopLevelObjects.xib */,
+				07C747511D28B5E100AC42E4 /* NoTopLevelObjects.xib */,
+				07C747521D28B5E100AC42E4 /* TestView.xib */,
 			);
 			name = macOS;
-			sourceTree = "<group>";
+			path = Tests/NibLoader/Fixtures/macOS;
+			sourceTree = SOURCE_ROOT;
 		};
-		077B2D231D282355003627E8 /* iOS */ = {
+		07C747561D28B5FD00AC42E4 /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				077B2D271D2823B7003627E8 /* NoTopLevelObjects.xib */,
-				077B2D291D2823D7003627E8 /* MultipleTopLevelObjects.xib */,
-				077B2D2B1D2823F3003627E8 /* TestView.xib */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		077B2D241D282369003627E8 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				077B2D251D28238E003627E8 /* UIView+NibLoaderTests.swift */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		07C747371D28B41F00AC42E4 /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				07C747381D28B43C00AC42E4 /* NoTopLevelObjects.xib */,
-				07C7473A1D28B46400AC42E4 /* MultipleTopLevelObjects.xib */,
-				07C7473B1D28B46400AC42E4 /* TestView.xib */,
+				07C747571D28B5FD00AC42E4 /* MultipleTopLevelObjects.xib */,
+				07C747581D28B5FD00AC42E4 /* NoTopLevelObjects.xib */,
+				07C747591D28B5FD00AC42E4 /* TestView.xib */,
 			);
 			name = tvOS;
+			path = Tests/NibLoader/Fixtures/tvOS;
 			sourceTree = "<group>";
+		};
+		07C7475D1D28B60600AC42E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				07C7475E1D28B60600AC42E4 /* UIView+NibLoaderTests.swift */,
+			);
+			name = iOS;
+			path = Tests/NibLoader/iOS;
+			sourceTree = "<group>";
+		};
+		07C747601D28B61500AC42E4 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				07C747611D28B61500AC42E4 /* NSView+NibLoaderTests.swift */,
+			);
+			name = macOS;
+			path = Tests/NibLoader/macOS;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -372,9 +374,9 @@
 			productReference = 07C7471C1D28B38300AC42E4 /* NibLoader.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		07C747241D28B38300AC42E4 /* NibLoader-tvOSTests */ = {
+		07C747241D28B38300AC42E4 /* NibLoaderTests-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07C747301D28B38300AC42E4 /* Build configuration list for PBXNativeTarget "NibLoader-tvOSTests" */;
+			buildConfigurationList = 07C747301D28B38300AC42E4 /* Build configuration list for PBXNativeTarget "NibLoaderTests-tvOS" */;
 			buildPhases = (
 				07C747211D28B38300AC42E4 /* Sources */,
 				07C747221D28B38300AC42E4 /* Frameworks */,
@@ -385,7 +387,7 @@
 			dependencies = (
 				07C747281D28B38300AC42E4 /* PBXTargetDependency */,
 			);
-			name = "NibLoader-tvOSTests";
+			name = "NibLoaderTests-tvOS";
 			productName = "NibLoader-tvOSTests";
 			productReference = 07C747251D28B38300AC42E4 /* NibLoaderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -437,7 +439,7 @@
 				075076641D27CD3B00C4FDC2 /* NibLoader-macOS */,
 				0750766D1D27CD3C00C4FDC2 /* NibLoaderTests-macOS */,
 				07C7471B1D28B38300AC42E4 /* NibLoader-tvOS */,
-				07C747241D28B38300AC42E4 /* NibLoader-tvOSTests */,
+				07C747241D28B38300AC42E4 /* NibLoaderTests-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -454,9 +456,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				077B2D281D2823B7003627E8 /* NoTopLevelObjects.xib in Resources */,
-				077B2D2C1D2823F3003627E8 /* TestView.xib in Resources */,
-				077B2D2A1D2823D7003627E8 /* MultipleTopLevelObjects.xib in Resources */,
+				07C7474E1D28B5D800AC42E4 /* TestView.xib in Resources */,
+				07C7474D1D28B5D800AC42E4 /* NoTopLevelObjects.xib in Resources */,
+				07C7474C1D28B5D800AC42E4 /* MultipleTopLevelObjects.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,9 +473,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0750768E1D27D0B700C4FDC2 /* MultipleTopLevelObjects.xib in Resources */,
-				075076901D27D0D300C4FDC2 /* TestView.xib in Resources */,
-				0750768C1D27D0A200C4FDC2 /* NoTopLevelObjects.xib in Resources */,
+				07C747551D28B5E100AC42E4 /* TestView.xib in Resources */,
+				07C747541D28B5E100AC42E4 /* NoTopLevelObjects.xib in Resources */,
+				07C747531D28B5E100AC42E4 /* MultipleTopLevelObjects.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,9 +483,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07C7473D1D28B46400AC42E4 /* TestView.xib in Resources */,
-				07C747391D28B43C00AC42E4 /* NoTopLevelObjects.xib in Resources */,
-				07C7473C1D28B46400AC42E4 /* MultipleTopLevelObjects.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,9 +490,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07C7473E1D28B4D400AC42E4 /* NoTopLevelObjects.xib in Resources */,
-				07C7473F1D28B4D500AC42E4 /* MultipleTopLevelObjects.xib in Resources */,
-				07C747401D28B4D700AC42E4 /* TestView.xib in Resources */,
+				07C7475C1D28B5FD00AC42E4 /* TestView.xib in Resources */,
+				07C7475B1D28B5FD00AC42E4 /* NoTopLevelObjects.xib in Resources */,
+				07C7475A1D28B5FD00AC42E4 /* MultipleTopLevelObjects.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,7 +512,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				077B2D261D28238E003627E8 /* UIView+NibLoaderTests.swift in Sources */,
+				07C7475F1D28B60600AC42E4 /* UIView+NibLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,7 +529,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				075076921D27D16600C4FDC2 /* NSView+NibLoaderTests.swift in Sources */,
+				07C747621D28B61500AC42E4 /* NSView+NibLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,8 +537,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07C747351D28B40C00AC42E4 /* UIView+NibLoader.swift in Sources */,
 				07C747341D28B40900AC42E4 /* NibLoadingError.swift in Sources */,
+				0726CC261D28B8D80040CA10 /* UIView+NibLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,7 +546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07C747361D28B41200AC42E4 /* UIView+NibLoaderTests.swift in Sources */,
+				0726CC271D28B8FD0040CA10 /* UIView+NibLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,7 +701,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = Tests/NibLoader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoaderTests;
 				PRODUCT_NAME = NibLoaderTests;
@@ -714,7 +713,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = Tests/NibLoader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoaderTests;
 				PRODUCT_NAME = NibLoaderTests;
@@ -769,7 +768,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = Tests/NibLoader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoaderTests;
@@ -785,7 +784,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = Tests/NibLoader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoaderTests;
@@ -835,7 +834,7 @@
 		07C747311D28B38300AC42E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = Tests/NibLoader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoader;
 				PRODUCT_NAME = NibLoaderTests;
@@ -847,7 +846,7 @@
 		07C747321D28B38300AC42E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = Tests/NibLoader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoader;
 				PRODUCT_NAME = NibLoaderTests;
@@ -911,14 +910,16 @@
 				07C7472F1D28B38300AC42E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		07C747301D28B38300AC42E4 /* Build configuration list for PBXNativeTarget "NibLoader-tvOSTests" */ = {
+		07C747301D28B38300AC42E4 /* Build configuration list for PBXNativeTarget "NibLoaderTests-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07C747311D28B38300AC42E4 /* Debug */,
 				07C747321D28B38300AC42E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

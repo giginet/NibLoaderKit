@@ -1,6 +1,6 @@
 import Cocoa
 
-extension NSView {
+public extension NSView {
     static func view<T: NSView>(withOwner owner: AnyObject?,
                      bundle: NSBundle = NSBundle.mainBundle()) throws -> T {
         let className = String(self)
@@ -15,13 +15,13 @@ extension NSView {
             let objects = topLevelObjects else {
             throw NibLoadingError.NibNotFound
         }
-        
+
         let views = objects.filter { object in object is NSView }
-        
+
         if views.count > 1 {
             throw NibLoadingError.MultipleTopLevelObjectsFound
         }
-        
+
         guard let view = views.first as? T else {
             throw NibLoadingError.TopLevelObjectNotFound
         }

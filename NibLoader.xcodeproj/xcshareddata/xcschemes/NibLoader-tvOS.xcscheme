@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "07C7471B1D28B38300AC42E4"
-               BuildableName = "NibLoader-tvOS.framework"
+               BuildableName = "NibLoader.framework"
                BlueprintName = "NibLoader-tvOS"
                ReferencedContainer = "container:NibLoader.xcodeproj">
             </BuildableReference>
@@ -33,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "07C747241D28B38300AC42E4"
-               BuildableName = "NibLoader-tvOSTests.xctest"
-               BlueprintName = "NibLoader-tvOSTests"
+               BuildableName = "NibLoaderTests.xctest"
+               BlueprintName = "NibLoaderTests-tvOS"
                ReferencedContainer = "container:NibLoader.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "07C7471B1D28B38300AC42E4"
-            BuildableName = "NibLoader-tvOS.framework"
+            BuildableName = "NibLoader.framework"
             BlueprintName = "NibLoader-tvOS"
             ReferencedContainer = "container:NibLoader.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "07C7471B1D28B38300AC42E4"
-            BuildableName = "NibLoader-tvOS.framework"
+            BuildableName = "NibLoader.framework"
             BlueprintName = "NibLoader-tvOS"
             ReferencedContainer = "container:NibLoader.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "07C7471B1D28B38300AC42E4"
-            BuildableName = "NibLoader-tvOS.framework"
+            BuildableName = "NibLoader.framework"
             BlueprintName = "NibLoader-tvOS"
             ReferencedContainer = "container:NibLoader.xcodeproj">
          </BuildableReference>
