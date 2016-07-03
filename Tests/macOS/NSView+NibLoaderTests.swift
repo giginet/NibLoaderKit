@@ -21,7 +21,7 @@ class NSView_NibLoaderTests: XCTestCase {
     }
     
     func testLoadFromClass() {
-        let testView: TestView = try! TestView.view(owner: self,
+        let testView: TestView = try! TestView.view(withOwner: self,
                                                     bundle: bundle)
         XCTAssertEqual(testView.subviews.count, 1)
     }
