@@ -1,10 +1,10 @@
-# NibLoader 
+# NibLoaderKit 
 
-[![Build Status](https://travis-ci.org/giginet/NibLoader.svg?branch=master)](https://travis-ci.org/giginet/NibLoader) 
-[![codecov](https://codecov.io/gh/giginet/NibLoader/branch/master/graph/badge.svg)](https://codecov.io/gh/giginet/NibLoader) 
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/NibLoader.svg)](https://img.shields.io/cocoapods/v/NibLoader.svg)
+[![Build Status](https://travis-ci.org/giginet/NibLoaderKit.svg?branch=master)](https://travis-ci.org/giginet/NibLoaderKit) 
+[![codecov](https://codecov.io/gh/giginet/NibLoaderKit/branch/master/graph/badge.svg)](https://codecov.io/gh/giginet/NibLoaderKit) 
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/NibLoaderKit.svg)](https://img.shields.io/cocoapods/v/NibLoaderKit.svg)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) 
-[![Platform](https://img.shields.io/cocoapods/p/NibLoader.svg?style=flat)](http://cocoadocs.org/docsets/NibLoader)
+[![Platform](https://img.shields.io/cocoapods/p/NibLoaderKit.svg?style=flat)](http://cocoadocs.org/docsets/NibLoaderKit)
 
 This is a micro utility to create UIView/NSView from nib files.
 
@@ -24,7 +24,7 @@ class CustomView: UIView { }
 
 - Set custom class of the top level view to `CustomView`.
 
-![](https://raw.githubusercontent.com/giginet/NibLoader/master/Documentation/Images/custom_view.png)
+![](https://raw.githubusercontent.com/giginet/NibLoaderKit/master/Documentation/Images/custom_view.png)
 
 ## 4. Load from code
 
@@ -49,7 +49,7 @@ let customView: CustomView = UIView.view(
 ## Carthage
 
 ```
-github "giginet/NibLoader"
+github "giginet/NibLoaderKit"
 ```
 
 ## CocoaPods
@@ -57,7 +57,7 @@ github "giginet/NibLoader"
 ```ruby
 use_frameworks!
 
-pod 'giginet/NibLoader'
+pod 'giginet/NibLoaderKit'
 ```
 
 # Requirements

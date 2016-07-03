@@ -12,8 +12,8 @@ matrix:
 script: 
   - pod lib lint --allow-warnings
   - swiftlint
-  - xcodebuild test -project NibLoader.xcodeproj -scheme NibLoader-iOS -destination 'platform=iOS Simulator,name=iPhone 6' | xcpretty -c
-  - xcodebuild test -project NibLoader.xcodeproj -scheme NibLoader-macOS -destination 'platform=OS X' | xcpretty -c
-  - xcodebuild test -project NibLoader.xcodeproj -scheme NibLoader-tvOS -destination 'platform=tvOS Simulator,name=Apple TV 1080p' | xcpretty -c
+  - xcodebuild test -project NibLoaderKit.xcodeproj -scheme NibLoaderKit-iOS -destination 'platform=iOS Simulator,name=iPhone 6' | xcpretty -c
+  - xcodebuild test -project NibLoaderKit.xcodeproj -scheme NibLoaderKit-macOS -destination 'platform=OS X' | xcpretty -c
+  - xcodebuild test -project NibLoaderKit.xcodeproj -scheme NibLoaderKit-tvOS -destination 'platform=tvOS Simulator,name=Apple TV 1080p' | xcpretty -c
 after_success:
-  - bash <(curl -s https://codecov.io/bash) -J 'NibLoader' 
+  - bash <(curl -s https://codecov.io/bash) -J 'NibLoaderKit' 

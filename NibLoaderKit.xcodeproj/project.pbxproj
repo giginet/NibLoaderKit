@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		0726CC261D28B8D80040CA10 /* UIView+NibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750765B1D27CCD800C4FDC2 /* UIView+NibLoader.swift */; };
 		0726CC271D28B8FD0040CA10 /* UIView+NibLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C7475E1D28B60600AC42E4 /* UIView+NibLoaderTests.swift */; };
-		075076471D27CBFD00C4FDC2 /* NibLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0750763C1D27CBFD00C4FDC2 /* NibLoader.framework */; };
-		075076591D27CC7E00C4FDC2 /* NibLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 075076571D27CC7E00C4FDC2 /* NibLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		075076471D27CBFD00C4FDC2 /* NibLoaderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0750763C1D27CBFD00C4FDC2 /* NibLoaderKit.framework */; };
+		075076591D27CC7E00C4FDC2 /* NibLoaderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 075076571D27CC7E00C4FDC2 /* NibLoaderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0750765C1D27CCD800C4FDC2 /* UIView+NibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750765B1D27CCD800C4FDC2 /* UIView+NibLoader.swift */; };
-		0750766F1D27CD3C00C4FDC2 /* NibLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075076651D27CD3B00C4FDC2 /* NibLoader.framework */; };
-		075076861D27CF6900C4FDC2 /* NibLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 075076571D27CC7E00C4FDC2 /* NibLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0750766F1D27CD3C00C4FDC2 /* NibLoaderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075076651D27CD3B00C4FDC2 /* NibLoaderKit.framework */; };
+		075076861D27CF6900C4FDC2 /* NibLoaderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 075076571D27CC7E00C4FDC2 /* NibLoaderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		075076871D27CF7E00C4FDC2 /* NSView+NibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750765E1D27CD1700C4FDC2 /* NSView+NibLoader.swift */; };
 		075076941D27D1A100C4FDC2 /* NibLoadingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075076931D27D1A100C4FDC2 /* NibLoadingError.swift */; };
 		075076951D27D1A100C4FDC2 /* NibLoadingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075076931D27D1A100C4FDC2 /* NibLoadingError.swift */; };
-		0777BC5E1D28B7E800DB9865 /* NibLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C7471C1D28B38300AC42E4 /* NibLoader.framework */; };
-		07C747331D28B40400AC42E4 /* NibLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 075076571D27CC7E00C4FDC2 /* NibLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0777BC5E1D28B7E800DB9865 /* NibLoaderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C7471C1D28B38300AC42E4 /* NibLoaderKit.framework */; };
+		07C747331D28B40400AC42E4 /* NibLoaderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 075076571D27CC7E00C4FDC2 /* NibLoaderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07C747341D28B40900AC42E4 /* NibLoadingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075076931D27D1A100C4FDC2 /* NibLoadingError.swift */; };
 		07C7474C1D28B5D800AC42E4 /* MultipleTopLevelObjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C747491D28B5D800AC42E4 /* MultipleTopLevelObjects.xib */; };
 		07C7474D1D28B5D800AC42E4 /* NoTopLevelObjects.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C7474A1D28B5D800AC42E4 /* NoTopLevelObjects.xib */; };
@@ -39,37 +39,37 @@
 			containerPortal = 075076331D27CBFD00C4FDC2 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0750763B1D27CBFD00C4FDC2;
-			remoteInfo = NibLoader;
+			remoteInfo = NibLoaderKit;
 		};
 		075076701D27CD3C00C4FDC2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 075076331D27CBFD00C4FDC2 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 075076641D27CD3B00C4FDC2;
-			remoteInfo = "NibLoader-macOS";
+			remoteInfo = "NibLoaderKit-macOS";
 		};
 		07C747271D28B38300AC42E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 075076331D27CBFD00C4FDC2 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 07C7471B1D28B38300AC42E4;
-			remoteInfo = "NibLoader-tvOS";
+			remoteInfo = "NibLoaderKit-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0750763C1D27CBFD00C4FDC2 /* NibLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NibLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		075076461D27CBFD00C4FDC2 /* NibLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NibLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0750763C1D27CBFD00C4FDC2 /* NibLoaderKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NibLoaderKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		075076461D27CBFD00C4FDC2 /* NibLoaderKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NibLoaderKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		075076561D27CC7E00C4FDC2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = SOURCE_ROOT; };
-		075076571D27CC7E00C4FDC2 /* NibLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NibLoader.h; path = Sources/NibLoader.h; sourceTree = SOURCE_ROOT; };
+		075076571D27CC7E00C4FDC2 /* NibLoaderKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NibLoaderKit.h; path = Sources/NibLoaderKit.h; sourceTree = SOURCE_ROOT; };
 		0750765B1D27CCD800C4FDC2 /* UIView+NibLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+NibLoader.swift"; path = "Sources/iOS/UIView+NibLoader.swift"; sourceTree = SOURCE_ROOT; };
 		0750765E1D27CD1700C4FDC2 /* NSView+NibLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSView+NibLoader.swift"; path = "Sources/macOS/NSView+NibLoader.swift"; sourceTree = SOURCE_ROOT; };
-		075076651D27CD3B00C4FDC2 /* NibLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NibLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0750766E1D27CD3C00C4FDC2 /* NibLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NibLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		075076651D27CD3B00C4FDC2 /* NibLoaderKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NibLoaderKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0750766E1D27CD3C00C4FDC2 /* NibLoaderKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NibLoaderKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		075076931D27D1A100C4FDC2 /* NibLoadingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NibLoadingError.swift; path = Sources/NibLoadingError.swift; sourceTree = SOURCE_ROOT; };
-		07C7471C1D28B38300AC42E4 /* NibLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NibLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		07C747251D28B38300AC42E4 /* NibLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NibLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		07C747411D28B5A900AC42E4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/NibLoader/Info.plist; sourceTree = "<group>"; };
+		07C7471C1D28B38300AC42E4 /* NibLoaderKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NibLoaderKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C747251D28B38300AC42E4 /* NibLoaderKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NibLoaderKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C747411D28B5A900AC42E4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/NibLoaderKit/Info.plist; sourceTree = "<group>"; };
 		07C747491D28B5D800AC42E4 /* MultipleTopLevelObjects.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultipleTopLevelObjects.xib; sourceTree = "<group>"; };
 		07C7474A1D28B5D800AC42E4 /* NoTopLevelObjects.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoTopLevelObjects.xib; sourceTree = "<group>"; };
 		07C7474B1D28B5D800AC42E4 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				075076471D27CBFD00C4FDC2 /* NibLoader.framework in Frameworks */,
+				075076471D27CBFD00C4FDC2 /* NibLoaderKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0750766F1D27CD3C00C4FDC2 /* NibLoader.framework in Frameworks */,
+				0750766F1D27CD3C00C4FDC2 /* NibLoaderKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0777BC5E1D28B7E800DB9865 /* NibLoader.framework in Frameworks */,
+				0777BC5E1D28B7E800DB9865 /* NibLoaderKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +135,8 @@
 		075076321D27CBFD00C4FDC2 = {
 			isa = PBXGroup;
 			children = (
-				0750763E1D27CBFD00C4FDC2 /* NibLoader */,
-				0750767F1D27CD8200C4FDC2 /* NibLoaderTests */,
+				0750763E1D27CBFD00C4FDC2 /* NibLoaderKit */,
+				0750767F1D27CD8200C4FDC2 /* NibLoaderKitTests */,
 				0750763D1D27CBFD00C4FDC2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -144,26 +144,26 @@
 		0750763D1D27CBFD00C4FDC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0750763C1D27CBFD00C4FDC2 /* NibLoader.framework */,
-				075076461D27CBFD00C4FDC2 /* NibLoaderTests.xctest */,
-				075076651D27CD3B00C4FDC2 /* NibLoader.framework */,
-				0750766E1D27CD3C00C4FDC2 /* NibLoaderTests.xctest */,
-				07C7471C1D28B38300AC42E4 /* NibLoader.framework */,
-				07C747251D28B38300AC42E4 /* NibLoaderTests.xctest */,
+				0750763C1D27CBFD00C4FDC2 /* NibLoaderKit.framework */,
+				075076461D27CBFD00C4FDC2 /* NibLoaderKitTests.xctest */,
+				075076651D27CD3B00C4FDC2 /* NibLoaderKit.framework */,
+				0750766E1D27CD3C00C4FDC2 /* NibLoaderKitTests.xctest */,
+				07C7471C1D28B38300AC42E4 /* NibLoaderKit.framework */,
+				07C747251D28B38300AC42E4 /* NibLoaderKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0750763E1D27CBFD00C4FDC2 /* NibLoader */ = {
+		0750763E1D27CBFD00C4FDC2 /* NibLoaderKit */ = {
 			isa = PBXGroup;
 			children = (
 				0750765D1D27CCE200C4FDC2 /* macOS */,
 				0750765A1D27CC9800C4FDC2 /* iOS */,
 				075076561D27CC7E00C4FDC2 /* Info.plist */,
-				075076571D27CC7E00C4FDC2 /* NibLoader.h */,
+				075076571D27CC7E00C4FDC2 /* NibLoaderKit.h */,
 				075076931D27D1A100C4FDC2 /* NibLoadingError.swift */,
 			);
-			path = NibLoader;
+			path = NibLoaderKit;
 			sourceTree = "<group>";
 		};
 		0750765A1D27CC9800C4FDC2 /* iOS */ = {
@@ -182,7 +182,7 @@
 			name = macOS;
 			sourceTree = "<group>";
 		};
-		0750767F1D27CD8200C4FDC2 /* NibLoaderTests */ = {
+		0750767F1D27CD8200C4FDC2 /* NibLoaderKitTests */ = {
 			isa = PBXGroup;
 			children = (
 				07C7475D1D28B60600AC42E4 /* iOS */,
@@ -190,7 +190,7 @@
 				07C747451D28B5C100AC42E4 /* Fixtures */,
 				07C747411D28B5A900AC42E4 /* Info.plist */,
 			);
-			name = NibLoaderTests;
+			name = NibLoaderKitTests;
 			sourceTree = "<group>";
 		};
 		07C747451D28B5C100AC42E4 /* Fixtures */ = {
@@ -211,7 +211,7 @@
 				07C7474B1D28B5D800AC42E4 /* TestView.xib */,
 			);
 			name = iOS;
-			path = Tests/NibLoader/Fixtures/iOS;
+			path = Tests/NibLoaderKit/Fixtures/iOS;
 			sourceTree = "<group>";
 		};
 		07C7474F1D28B5E100AC42E4 /* macOS */ = {
@@ -222,7 +222,7 @@
 				07C747521D28B5E100AC42E4 /* TestView.xib */,
 			);
 			name = macOS;
-			path = Tests/NibLoader/Fixtures/macOS;
+			path = Tests/NibLoaderKit/Fixtures/macOS;
 			sourceTree = SOURCE_ROOT;
 		};
 		07C747561D28B5FD00AC42E4 /* tvOS */ = {
@@ -233,7 +233,7 @@
 				07C747591D28B5FD00AC42E4 /* TestView.xib */,
 			);
 			name = tvOS;
-			path = Tests/NibLoader/Fixtures/tvOS;
+			path = Tests/NibLoaderKit/Fixtures/tvOS;
 			sourceTree = "<group>";
 		};
 		07C7475D1D28B60600AC42E4 /* iOS */ = {
@@ -242,7 +242,7 @@
 				07C7475E1D28B60600AC42E4 /* UIView+NibLoaderTests.swift */,
 			);
 			name = iOS;
-			path = Tests/NibLoader/iOS;
+			path = Tests/NibLoaderKit/iOS;
 			sourceTree = "<group>";
 		};
 		07C747601D28B61500AC42E4 /* macOS */ = {
@@ -251,7 +251,7 @@
 				07C747611D28B61500AC42E4 /* NSView+NibLoaderTests.swift */,
 			);
 			name = macOS;
-			path = Tests/NibLoader/macOS;
+			path = Tests/NibLoaderKit/macOS;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -261,7 +261,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				075076591D27CC7E00C4FDC2 /* NibLoader.h in Headers */,
+				075076591D27CC7E00C4FDC2 /* NibLoaderKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +269,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				075076861D27CF6900C4FDC2 /* NibLoader.h in Headers */,
+				075076861D27CF6900C4FDC2 /* NibLoaderKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,16 +277,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07C747331D28B40400AC42E4 /* NibLoader.h in Headers */,
+				07C747331D28B40400AC42E4 /* NibLoaderKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0750763B1D27CBFD00C4FDC2 /* NibLoader-iOS */ = {
+		0750763B1D27CBFD00C4FDC2 /* NibLoaderKit-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 075076501D27CBFD00C4FDC2 /* Build configuration list for PBXNativeTarget "NibLoader-iOS" */;
+			buildConfigurationList = 075076501D27CBFD00C4FDC2 /* Build configuration list for PBXNativeTarget "NibLoaderKit-iOS" */;
 			buildPhases = (
 				075076371D27CBFD00C4FDC2 /* Sources */,
 				075076381D27CBFD00C4FDC2 /* Frameworks */,
@@ -297,14 +297,14 @@
 			);
 			dependencies = (
 			);
-			name = "NibLoader-iOS";
-			productName = NibLoader;
-			productReference = 0750763C1D27CBFD00C4FDC2 /* NibLoader.framework */;
+			name = "NibLoaderKit-iOS";
+			productName = NibLoaderKit;
+			productReference = 0750763C1D27CBFD00C4FDC2 /* NibLoaderKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		075076451D27CBFD00C4FDC2 /* NibLoaderTests-iOS */ = {
+		075076451D27CBFD00C4FDC2 /* NibLoaderKitTests-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 075076531D27CBFD00C4FDC2 /* Build configuration list for PBXNativeTarget "NibLoaderTests-iOS" */;
+			buildConfigurationList = 075076531D27CBFD00C4FDC2 /* Build configuration list for PBXNativeTarget "NibLoaderKitTests-iOS" */;
 			buildPhases = (
 				075076421D27CBFD00C4FDC2 /* Sources */,
 				075076431D27CBFD00C4FDC2 /* Frameworks */,
@@ -315,14 +315,14 @@
 			dependencies = (
 				075076491D27CBFD00C4FDC2 /* PBXTargetDependency */,
 			);
-			name = "NibLoaderTests-iOS";
-			productName = NibLoaderTests;
-			productReference = 075076461D27CBFD00C4FDC2 /* NibLoaderTests.xctest */;
+			name = "NibLoaderKitTests-iOS";
+			productName = NibLoaderKitTests;
+			productReference = 075076461D27CBFD00C4FDC2 /* NibLoaderKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		075076641D27CD3B00C4FDC2 /* NibLoader-macOS */ = {
+		075076641D27CD3B00C4FDC2 /* NibLoaderKit-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 075076761D27CD3C00C4FDC2 /* Build configuration list for PBXNativeTarget "NibLoader-macOS" */;
+			buildConfigurationList = 075076761D27CD3C00C4FDC2 /* Build configuration list for PBXNativeTarget "NibLoaderKit-macOS" */;
 			buildPhases = (
 				075076601D27CD3B00C4FDC2 /* Sources */,
 				075076611D27CD3B00C4FDC2 /* Frameworks */,
@@ -333,14 +333,14 @@
 			);
 			dependencies = (
 			);
-			name = "NibLoader-macOS";
-			productName = "NibLoader-macOS";
-			productReference = 075076651D27CD3B00C4FDC2 /* NibLoader.framework */;
+			name = "NibLoaderKit-macOS";
+			productName = "NibLoaderKit-macOS";
+			productReference = 075076651D27CD3B00C4FDC2 /* NibLoaderKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0750766D1D27CD3C00C4FDC2 /* NibLoaderTests-macOS */ = {
+		0750766D1D27CD3C00C4FDC2 /* NibLoaderKitTests-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 075076791D27CD3C00C4FDC2 /* Build configuration list for PBXNativeTarget "NibLoaderTests-macOS" */;
+			buildConfigurationList = 075076791D27CD3C00C4FDC2 /* Build configuration list for PBXNativeTarget "NibLoaderKitTests-macOS" */;
 			buildPhases = (
 				0750766A1D27CD3C00C4FDC2 /* Sources */,
 				0750766B1D27CD3C00C4FDC2 /* Frameworks */,
@@ -351,14 +351,14 @@
 			dependencies = (
 				075076711D27CD3C00C4FDC2 /* PBXTargetDependency */,
 			);
-			name = "NibLoaderTests-macOS";
-			productName = "NibLoader-macOSTests";
-			productReference = 0750766E1D27CD3C00C4FDC2 /* NibLoaderTests.xctest */;
+			name = "NibLoaderKitTests-macOS";
+			productName = "NibLoaderKit-macOSTests";
+			productReference = 0750766E1D27CD3C00C4FDC2 /* NibLoaderKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		07C7471B1D28B38300AC42E4 /* NibLoader-tvOS */ = {
+		07C7471B1D28B38300AC42E4 /* NibLoaderKit-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07C7472D1D28B38300AC42E4 /* Build configuration list for PBXNativeTarget "NibLoader-tvOS" */;
+			buildConfigurationList = 07C7472D1D28B38300AC42E4 /* Build configuration list for PBXNativeTarget "NibLoaderKit-tvOS" */;
 			buildPhases = (
 				07C747171D28B38300AC42E4 /* Sources */,
 				07C747181D28B38300AC42E4 /* Frameworks */,
@@ -369,14 +369,14 @@
 			);
 			dependencies = (
 			);
-			name = "NibLoader-tvOS";
-			productName = "NibLoader-tvOS";
-			productReference = 07C7471C1D28B38300AC42E4 /* NibLoader.framework */;
+			name = "NibLoaderKit-tvOS";
+			productName = "NibLoaderKit-tvOS";
+			productReference = 07C7471C1D28B38300AC42E4 /* NibLoaderKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		07C747241D28B38300AC42E4 /* NibLoaderTests-tvOS */ = {
+		07C747241D28B38300AC42E4 /* NibLoaderKitTests-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07C747301D28B38300AC42E4 /* Build configuration list for PBXNativeTarget "NibLoaderTests-tvOS" */;
+			buildConfigurationList = 07C747301D28B38300AC42E4 /* Build configuration list for PBXNativeTarget "NibLoaderKitTests-tvOS" */;
 			buildPhases = (
 				07C747211D28B38300AC42E4 /* Sources */,
 				07C747221D28B38300AC42E4 /* Frameworks */,
@@ -387,9 +387,9 @@
 			dependencies = (
 				07C747281D28B38300AC42E4 /* PBXTargetDependency */,
 			);
-			name = "NibLoaderTests-tvOS";
-			productName = "NibLoader-tvOSTests";
-			productReference = 07C747251D28B38300AC42E4 /* NibLoaderTests.xctest */;
+			name = "NibLoaderKitTests-tvOS";
+			productName = "NibLoaderKit-tvOSTests";
+			productReference = 07C747251D28B38300AC42E4 /* NibLoaderKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -422,7 +422,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 075076361D27CBFD00C4FDC2 /* Build configuration list for PBXProject "NibLoader" */;
+			buildConfigurationList = 075076361D27CBFD00C4FDC2 /* Build configuration list for PBXProject "NibLoaderKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -434,12 +434,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0750763B1D27CBFD00C4FDC2 /* NibLoader-iOS */,
-				075076451D27CBFD00C4FDC2 /* NibLoaderTests-iOS */,
-				075076641D27CD3B00C4FDC2 /* NibLoader-macOS */,
-				0750766D1D27CD3C00C4FDC2 /* NibLoaderTests-macOS */,
-				07C7471B1D28B38300AC42E4 /* NibLoader-tvOS */,
-				07C747241D28B38300AC42E4 /* NibLoaderTests-tvOS */,
+				0750763B1D27CBFD00C4FDC2 /* NibLoaderKit-iOS */,
+				075076451D27CBFD00C4FDC2 /* NibLoaderKitTests-iOS */,
+				075076641D27CD3B00C4FDC2 /* NibLoaderKit-macOS */,
+				0750766D1D27CD3C00C4FDC2 /* NibLoaderKitTests-macOS */,
+				07C7471B1D28B38300AC42E4 /* NibLoaderKit-tvOS */,
+				07C747241D28B38300AC42E4 /* NibLoaderKitTests-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -555,17 +555,17 @@
 /* Begin PBXTargetDependency section */
 		075076491D27CBFD00C4FDC2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0750763B1D27CBFD00C4FDC2 /* NibLoader-iOS */;
+			target = 0750763B1D27CBFD00C4FDC2 /* NibLoaderKit-iOS */;
 			targetProxy = 075076481D27CBFD00C4FDC2 /* PBXContainerItemProxy */;
 		};
 		075076711D27CD3C00C4FDC2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 075076641D27CD3B00C4FDC2 /* NibLoader-macOS */;
+			target = 075076641D27CD3B00C4FDC2 /* NibLoaderKit-macOS */;
 			targetProxy = 075076701D27CD3C00C4FDC2 /* PBXContainerItemProxy */;
 		};
 		07C747281D28B38300AC42E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 07C7471B1D28B38300AC42E4 /* NibLoader-tvOS */;
+			target = 07C7471B1D28B38300AC42E4 /* NibLoaderKit-tvOS */;
 			targetProxy = 07C747271D28B38300AC42E4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -674,8 +674,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoader;
-				PRODUCT_NAME = NibLoader;
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoaderKit;
+				PRODUCT_NAME = NibLoaderKit;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -693,8 +693,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoader;
-				PRODUCT_NAME = NibLoader;
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoaderKit;
+				PRODUCT_NAME = NibLoaderKit;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -703,10 +703,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = Tests/NibLoader/Info.plist;
+				INFOPLIST_FILE = Tests/NibLoaderKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoaderTests;
-				PRODUCT_NAME = NibLoaderTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoaderKitTests;
+				PRODUCT_NAME = NibLoaderKitTests;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -715,10 +715,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = Tests/NibLoader/Info.plist;
+				INFOPLIST_FILE = Tests/NibLoaderKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoaderTests;
-				PRODUCT_NAME = NibLoaderTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoaderKitTests;
+				PRODUCT_NAME = NibLoaderKitTests;
 			};
 			name = Release;
 		};
@@ -736,8 +736,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoader;
-				PRODUCT_NAME = NibLoader;
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoaderKit;
+				PRODUCT_NAME = NibLoaderKit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -757,8 +757,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoader;
-				PRODUCT_NAME = NibLoader;
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoaderKit;
+				PRODUCT_NAME = NibLoaderKit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -770,11 +770,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Tests/NibLoader/Info.plist;
+				INFOPLIST_FILE = Tests/NibLoaderKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoaderTests;
-				PRODUCT_NAME = NibLoaderTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoaderKitTests;
+				PRODUCT_NAME = NibLoaderKitTests;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -786,11 +786,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Tests/NibLoader/Info.plist;
+				INFOPLIST_FILE = Tests/NibLoaderKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoaderTests;
-				PRODUCT_NAME = NibLoaderTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoaderKitTests;
+				PRODUCT_NAME = NibLoaderKitTests;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -805,8 +805,8 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoader;
-				PRODUCT_NAME = NibLoader;
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoaderKit;
+				PRODUCT_NAME = NibLoaderKit;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -824,8 +824,8 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoader;
-				PRODUCT_NAME = NibLoader;
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoaderKit;
+				PRODUCT_NAME = NibLoaderKit;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -836,10 +836,10 @@
 		07C747311D28B38300AC42E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = Tests/NibLoader/Info.plist;
+				INFOPLIST_FILE = Tests/NibLoaderKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoader;
-				PRODUCT_NAME = NibLoaderTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoaderKit;
+				PRODUCT_NAME = NibLoaderKitTests;
 				SDKROOT = appletvos;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
@@ -848,10 +848,10 @@
 		07C747321D28B38300AC42E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = Tests/NibLoader/Info.plist;
+				INFOPLIST_FILE = Tests/NibLoaderKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoader;
-				PRODUCT_NAME = NibLoaderTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NibLoaderKit;
+				PRODUCT_NAME = NibLoaderKitTests;
 				SDKROOT = appletvos;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
@@ -860,7 +860,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		075076361D27CBFD00C4FDC2 /* Build configuration list for PBXProject "NibLoader" */ = {
+		075076361D27CBFD00C4FDC2 /* Build configuration list for PBXProject "NibLoaderKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0750764E1D27CBFD00C4FDC2 /* Debug */,
@@ -869,7 +869,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		075076501D27CBFD00C4FDC2 /* Build configuration list for PBXNativeTarget "NibLoader-iOS" */ = {
+		075076501D27CBFD00C4FDC2 /* Build configuration list for PBXNativeTarget "NibLoaderKit-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				075076511D27CBFD00C4FDC2 /* Debug */,
@@ -878,7 +878,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		075076531D27CBFD00C4FDC2 /* Build configuration list for PBXNativeTarget "NibLoaderTests-iOS" */ = {
+		075076531D27CBFD00C4FDC2 /* Build configuration list for PBXNativeTarget "NibLoaderKitTests-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				075076541D27CBFD00C4FDC2 /* Debug */,
@@ -887,7 +887,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		075076761D27CD3C00C4FDC2 /* Build configuration list for PBXNativeTarget "NibLoader-macOS" */ = {
+		075076761D27CD3C00C4FDC2 /* Build configuration list for PBXNativeTarget "NibLoaderKit-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				075076771D27CD3C00C4FDC2 /* Debug */,
@@ -896,7 +896,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		075076791D27CD3C00C4FDC2 /* Build configuration list for PBXNativeTarget "NibLoaderTests-macOS" */ = {
+		075076791D27CD3C00C4FDC2 /* Build configuration list for PBXNativeTarget "NibLoaderKitTests-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0750767A1D27CD3C00C4FDC2 /* Debug */,
@@ -905,7 +905,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07C7472D1D28B38300AC42E4 /* Build configuration list for PBXNativeTarget "NibLoader-tvOS" */ = {
+		07C7472D1D28B38300AC42E4 /* Build configuration list for PBXNativeTarget "NibLoaderKit-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07C7472E1D28B38300AC42E4 /* Debug */,
@@ -914,7 +914,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07C747301D28B38300AC42E4 /* Build configuration list for PBXNativeTarget "NibLoaderTests-tvOS" */ = {
+		07C747301D28B38300AC42E4 /* Build configuration list for PBXNativeTarget "NibLoaderKitTests-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07C747311D28B38300AC42E4 /* Debug */,

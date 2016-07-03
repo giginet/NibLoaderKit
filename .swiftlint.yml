@@ -1,6 +1,6 @@
 included: 
   - Sources
-  - Tests/NibLoader
+  - Tests/NibLoaderKit
 disabled_rules:
   - force_cast
   - force_try

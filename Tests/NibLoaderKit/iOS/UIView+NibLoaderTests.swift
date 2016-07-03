@@ -1,9 +1,9 @@
 import XCTest
-@testable import NibLoader
+@testable import NibLoaderKit
 
-class TestView: NSView { }
+class TestView: UIView { }
 
-class NSViewNibLoaderTests: XCTestCase {
+class UIViewNibLoaderKitTests: XCTestCase {
     var bundle: NSBundle!
 
     override func setUp() {
@@ -27,7 +27,7 @@ class NSViewNibLoaderTests: XCTestCase {
 
     func testNibNotFound() {
         func execute() throws {
-            try NSView.view(fromNibNamed: "UnknownNib",
+            try UIView.view(fromNibNamed: "UnknownNib",
                             owner: self,
                             bundle: bundle)
         }
@@ -41,7 +41,7 @@ class NSViewNibLoaderTests: XCTestCase {
 
     func testTopLevelObjectNotFound() {
         func execute() throws {
-            try NSView.view(fromNibNamed: "NoTopLevelObjects",
+            try UIView.view(fromNibNamed: "NoTopLevelObjects",
                             owner: self,
                             bundle: bundle)
         }
@@ -55,7 +55,9 @@ class NSViewNibLoaderTests: XCTestCase {
 
     func testMultipleTopLevelObjectsFound() {
         func execute() throws {
-            try NSView.view(fromNibNamed: "MultipleTopLevelObjects", owner: self, bundle: bundle)
+            try UIView.view(fromNibNamed: "MultipleTopLevelObjects",
+                            owner: self,
+                            bundle: bundle)
         }
 
         XCTAssertThrowsError(try execute()) { error in

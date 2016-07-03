@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "075076641D27CD3B00C4FDC2"
-               BuildableName = "NibLoader.framework"
-               BlueprintName = "NibLoader-macOS"
-               ReferencedContainer = "container:NibLoader.xcodeproj">
+               BlueprintIdentifier = "0750763B1D27CBFD00C4FDC2"
+               BuildableName = "NibLoaderKit.framework"
+               BlueprintName = "NibLoaderKit-iOS"
+               ReferencedContainer = "container:NibLoaderKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,26 +26,27 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0750766D1D27CD3C00C4FDC2"
-               BuildableName = "NibLoaderTests.xctest"
-               BlueprintName = "NibLoaderTests-macOS"
-               ReferencedContainer = "container:NibLoader.xcodeproj">
+               BlueprintIdentifier = "075076451D27CBFD00C4FDC2"
+               BuildableName = "NibLoaderKitTests.xctest"
+               BlueprintName = "NibLoaderKitTests-iOS"
+               ReferencedContainer = "container:NibLoaderKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "075076641D27CD3B00C4FDC2"
-            BuildableName = "NibLoader.framework"
-            BlueprintName = "NibLoader-macOS"
-            ReferencedContainer = "container:NibLoader.xcodeproj">
+            BlueprintIdentifier = "0750763B1D27CBFD00C4FDC2"
+            BuildableName = "NibLoaderKit.framework"
+            BlueprintName = "NibLoaderKit-iOS"
+            ReferencedContainer = "container:NibLoaderKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,10 +65,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "075076641D27CD3B00C4FDC2"
-            BuildableName = "NibLoader.framework"
-            BlueprintName = "NibLoader-macOS"
-            ReferencedContainer = "container:NibLoader.xcodeproj">
+            BlueprintIdentifier = "0750763B1D27CBFD00C4FDC2"
+            BuildableName = "NibLoaderKit.framework"
+            BlueprintName = "NibLoaderKit-iOS"
+            ReferencedContainer = "container:NibLoaderKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,10 +83,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "075076641D27CD3B00C4FDC2"
-            BuildableName = "NibLoader.framework"
-            BlueprintName = "NibLoader-macOS"
-            ReferencedContainer = "container:NibLoader.xcodeproj">
+            BlueprintIdentifier = "0750763B1D27CBFD00C4FDC2"
+            BuildableName = "NibLoaderKit.framework"
+            BlueprintName = "NibLoaderKit-iOS"
+            ReferencedContainer = "container:NibLoaderKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
