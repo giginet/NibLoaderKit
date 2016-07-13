@@ -9,6 +9,10 @@ matrix:
     - os: osx
       language: objective-c
       osx_image: xcode7.3
+  include:
+    - os: osx
+      language: objective-c
+      osx_image: xcode8
 script: 
   - pod lib lint --allow-warnings
   - swiftlint
