@@ -67,7 +67,8 @@ pod 'giginet/NibLoaderKit'
 - >= iOS 8
 - >= macOS 10.10
 - >= tvOS 9
-- Swift 2.2
+- Swift 2.2/2.3
+- Xcode 7.3/8
 
 ## LICENSE
 
