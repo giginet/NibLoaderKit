@@ -1,10 +1,11 @@
 # NibLoaderKit 
 
 [![Build Status](https://travis-ci.org/giginet/NibLoaderKit.svg?branch=master)](https://travis-ci.org/giginet/NibLoaderKit) 
-[![codecov](https://codecov.io/gh/giginet/NibLoaderKit/branch/master/graph/badge.svg)](https://codecov.io/gh/giginet/NibLoaderKit) 
+[![codecov](https://codecov.io/gh/giginet/NibLoaderKit/branch/master/graph/badge.svg)](https://codecov.io/gh/giginet/NibLoaderKit)
+[![Language](https://img.shields.io/badge/language-Swift%202.3-orange.svg)](https://swift.org)
+[![Platform](https://img.shields.io/cocoapods/p/NibLoaderKit.svg?style=flat)](http://cocoadocs.org/docsets/NibLoaderKit)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/NibLoaderKit.svg)](https://img.shields.io/cocoapods/v/NibLoaderKit.svg)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) 
-[![Platform](https://img.shields.io/cocoapods/p/NibLoaderKit.svg?style=flat)](http://cocoadocs.org/docsets/NibLoaderKit)
 
 This is a tiny utility to load UIView/NSView from nibs.
 
