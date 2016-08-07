@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NibLoaderKit"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "Tiny utility to load UIView/NSView from nibs"
   s.homepage     = "https://github.com/giginet/NibLoaderKit"
   s.license      = { :type => "MIT", :file => "LICENSE.md" }
