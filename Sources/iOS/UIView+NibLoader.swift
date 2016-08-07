@@ -15,15 +15,16 @@ public extension UIView {
             throw NibLoadingError.NibNotFound
         }
 
-        let objects = bundle.loadNibNamed(nibName, owner: owner, options: nil)
+        // On Xcode 7.3 returns IWO, however on Xcode 8.0 returns optional.
+        let objects: [AnyObject]? = bundle.loadNibNamed(nibName, owner: owner, options: nil)
 
-        let views = objects.filter { object in object is UIView }
+        let views = objects?.filter { object in object is UIView }
 
-        if views.count > 1 {
+        if let views = views where views.count > 1 {
             throw NibLoadingError.MultipleTopLevelObjectsFound
         }
 
-        guard let view = views.first as? T else {
+        guard let view = views?.first as? T else {
             throw NibLoadingError.TopLevelObjectNotFound
         }
         return view
