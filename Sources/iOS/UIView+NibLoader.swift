@@ -15,7 +15,12 @@ public extension UIView {
             throw NibLoadingError.NibNotFound
         }
 
-        let objects = bundle.loadNibNamed(nibName, owner: owner, options: nil)
+        // On Xcode 7.3 returns IWO, however on Xcode 8.0 returns optional.
+        let optionalObjects: [AnyObject]? = bundle.loadNibNamed(nibName, owner: owner, options: nil)
+
+        guard let objects = optionalObjects else {
+            throw NibLoadingError.MultipleTopLevelObjectsFound
+        }
 
         let views = objects.filter { object in object is UIView }
 
