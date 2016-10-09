@@ -61,7 +61,7 @@ github "giginet/NibLoaderKit"
 ```ruby
 use_frameworks!
 
-pod 'giginet/NibLoaderKit'
+pod 'NibLoaderKit'
 ```
 
 # Requirements
