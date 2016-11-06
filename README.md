@@ -44,7 +44,7 @@ You can also pass the nibName and bundle.
 let customView: UIView = try! UIView.view(
     from: "MyCustomView", 
     owner: self, 
-    bundle: NSBundle(forClass: self.dynamicType)
+    bundle: Bundle(forClass: self.dynamicType)
 )
 ```
 
@@ -69,8 +69,8 @@ pod 'NibLoaderKit'
 - >= iOS 8
 - >= macOS 10.10
 - >= tvOS 9
-- Swift 2.2/2.3
-- Xcode 7.3/8
+- Swift 3.0
+- Xcode 8.x
 
 ## LICENSE
 
