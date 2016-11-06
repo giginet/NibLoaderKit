@@ -7,7 +7,7 @@ public extension UIView {
         return try self.view(from: className, owner: owner, bundle: bundle)
     }
 
-    @available(*, renamed: "view(from:owner:bundle:)")
+    @available(*, deprecated, renamed: "view(from:owner:bundle:)")
     static func view<T: UIView>(fromNibNamed nibName: String,
                      owner: AnyObject?,
                      bundle: Bundle = Bundle.main) throws -> T {

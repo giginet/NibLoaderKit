@@ -5,6 +5,7 @@ matrix:
       osx_image: xcode8
       script: 
         - swiftlint
+        - pod lib lint
         - set -o pipefail && xcodebuild test -project NibLoaderKit.xcodeproj -scheme NibLoaderKit-iOS -destination 'platform=iOS Simulator,name=iPhone 6' | xcpretty -c
         - set -o pipefail && xcodebuild test -project NibLoaderKit.xcodeproj -scheme NibLoaderKit-macOS -destination 'platform=OS X' | xcpretty -c
         - set -o pipefail && xcodebuild test -project NibLoaderKit.xcodeproj -scheme NibLoaderKit-tvOS -destination 'platform=tvOS Simulator,name=Apple TV 1080p' | xcpretty -c
