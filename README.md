@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/giginet/NibLoaderKit.svg?branch=master)](https://travis-ci.org/giginet/NibLoaderKit) 
 [![codecov](https://codecov.io/gh/giginet/NibLoaderKit/branch/master/graph/badge.svg)](https://codecov.io/gh/giginet/NibLoaderKit)
-[![Language](https://img.shields.io/badge/language-Swift%202.2%7C2.3-orange.svg)](https://swift.org)
+[![Language](https://img.shields.io/badge/language-Swift%203-orange.svg)](https://swift.org)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) 
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/NibLoaderKit.svg)](http://cocoadocs.org/docsets/NibLoaderKit)
 [![Platform](https://img.shields.io/cocoapods/p/NibLoaderKit.svg?style=flat)](http://cocoadocs.org/docsets/NibLoaderKit)
@@ -42,7 +42,7 @@ You can also pass the nibName and bundle.
 
 ```swift
 let customView: UIView = try! UIView.view(
-    fromNibNamed: "MyCustomView", 
+    from: "MyCustomView", 
     owner: self, 
     bundle: NSBundle(forClass: self.dynamicType)
 )
