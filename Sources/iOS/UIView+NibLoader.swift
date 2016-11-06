@@ -13,7 +13,7 @@ public extension UIView {
                      bundle: Bundle = Bundle.main) throws -> T {
         fatalError()
     }
-    
+
     static func view<T: UIView>(from nibName: String,
                      owner: AnyObject?,
                      bundle: Bundle = Bundle.main) throws -> T {

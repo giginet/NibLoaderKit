@@ -6,7 +6,7 @@ public extension NSView {
         let className = String(describing: self)
         return try self.view(from: className, owner: owner, bundle: bundle)
     }
-    
+
     @available(*, renamed: "view(from:owner:bundle:)")
     static func view<T: NSView>(fromNibNamed nibName: String,
                      owner: AnyObject?,
