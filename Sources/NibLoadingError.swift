@@ -1,7 +1,7 @@
 import Foundation
 
-public enum NibLoadingError: ErrorType {
-    case NibNotFound
-    case TopLevelObjectNotFound
-    case MultipleTopLevelObjectsFound
+public enum NibLoadingError: Error {
+    case nibNotFound
+    case topLevelObjectNotFound
+    case multipleTopLevelObjectsFound
 }

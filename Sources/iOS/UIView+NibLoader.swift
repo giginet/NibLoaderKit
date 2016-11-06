@@ -2,30 +2,35 @@ import UIKit
 
 public extension UIView {
     static func view<T: UIView>(withOwner owner: AnyObject?,
-                     bundle: NSBundle = NSBundle.mainBundle()) throws -> T {
-        let className = String(self)
-        return try self.view(fromNibNamed: className, owner: owner, bundle: bundle)
+                     bundle: Bundle = Bundle.main) throws -> T {
+        let className = String(describing: self)
+        return try self.view(from: className, owner: owner, bundle: bundle)
     }
 
+    @available(*, renamed: "view(from:owner:bundle:)")
     static func view<T: UIView>(fromNibNamed nibName: String,
                      owner: AnyObject?,
-                     bundle: NSBundle = NSBundle.mainBundle()) throws -> T {
+                     bundle: Bundle = Bundle.main) throws -> T {
+        fatalError()
+    }
+    
+    static func view<T: UIView>(from nibName: String,
+                     owner: AnyObject?,
+                     bundle: Bundle = Bundle.main) throws -> T {
 
-        guard let _ = bundle.pathForResource(nibName, ofType: "nib") else {
-            throw NibLoadingError.NibNotFound
+        guard let _ = bundle.path(forResource: nibName, ofType: "nib") else {
+            throw NibLoadingError.nibNotFound
         }
 
-        // On Xcode 7.3 returns IWO, however on Xcode 8.0 returns optional.
-        let objects: [AnyObject]? = bundle.loadNibNamed(nibName, owner: owner, options: nil)
-
+        let objects = bundle.loadNibNamed(nibName, owner: owner, options: nil) as [AnyObject]?
         let views = objects?.filter { object in object is UIView }
 
-        if let views = views where views.count > 1 {
-            throw NibLoadingError.MultipleTopLevelObjectsFound
+        if let views = views, views.count > 1 {
+            throw NibLoadingError.multipleTopLevelObjectsFound
         }
 
         guard let view = views?.first as? T else {
-            throw NibLoadingError.TopLevelObjectNotFound
+            throw NibLoadingError.topLevelObjectNotFound
         }
         return view
     }
