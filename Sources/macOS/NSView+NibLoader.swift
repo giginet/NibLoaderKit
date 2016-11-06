@@ -2,28 +2,35 @@ import Cocoa
 
 public extension NSView {
     static func view<T: NSView>(withOwner owner: AnyObject?,
-                     bundle: NSBundle = NSBundle.mainBundle()) throws -> T {
-        let className = String(self)
-        return try self.view(fromNibNamed: className, owner: owner, bundle: bundle)
+                     bundle: Bundle = Bundle.main) throws -> T {
+        let className = String(describing: self)
+        return try self.view(from: className, owner: owner, bundle: bundle)
     }
 
+    @available(*, renamed: "view(from:owner:bundle:)")
     static func view<T: NSView>(fromNibNamed nibName: String,
                      owner: AnyObject?,
-                     bundle: NSBundle = NSBundle.mainBundle()) throws -> T {
+                     bundle: Bundle = Bundle.main) throws -> T {
+        fatalError()
+    }
+
+    static func view<T: NSView>(from nibName: String,
+                     owner: AnyObject?,
+                     bundle: Bundle = Bundle.main) throws -> T {
         var topLevelObjects: NSArray? = []
-        guard bundle.loadNibNamed(nibName, owner: owner, topLevelObjects: &topLevelObjects),
+        guard bundle.loadNibNamed(nibName, owner: owner, topLevelObjects: &topLevelObjects!),
             let objects = topLevelObjects else {
-            throw NibLoadingError.NibNotFound
+            throw NibLoadingError.nibNotFound
         }
 
         let views = objects.filter { object in object is NSView }
 
         if views.count > 1 {
-            throw NibLoadingError.MultipleTopLevelObjectsFound
+            throw NibLoadingError.multipleTopLevelObjectsFound
         }
 
         guard let view = views.first as? T else {
-            throw NibLoadingError.TopLevelObjectNotFound
+            throw NibLoadingError.topLevelObjectNotFound
         }
         return view
     }

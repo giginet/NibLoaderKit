@@ -4,15 +4,15 @@ import XCTest
 class TestView: UIView { }
 
 class UIViewNibLoaderKitTests: XCTestCase {
-    var bundle: NSBundle!
+    var bundle: Bundle!
 
     override func setUp() {
         super.setUp()
-        bundle = NSBundle(forClass: self.dynamicType)
+        bundle = Bundle(for: type(of: self))
     }
 
     func testLoadFromNibName() {
-        let testView = try! TestView.view(fromNibNamed: "TestView",
+        let testView = try! TestView.view(from: "TestView",
                                           owner: self,
                                           bundle: bundle)
 
@@ -27,42 +27,42 @@ class UIViewNibLoaderKitTests: XCTestCase {
 
     func testNibNotFound() {
         func execute() throws {
-            try UIView.view(fromNibNamed: "UnknownNib",
-                            owner: self,
-                            bundle: bundle)
+            _ = try UIView.view(from: "UnknownNib",
+                                owner: self,
+                                bundle: bundle)
         }
 
         XCTAssertThrowsError(try execute()) { error in
             if let error = error as? NibLoadingError {
-                XCTAssertEqual(error, NibLoadingError.NibNotFound)
+                XCTAssertEqual(error, NibLoadingError.nibNotFound)
             }
         }
     }
 
     func testTopLevelObjectNotFound() {
         func execute() throws {
-            try UIView.view(fromNibNamed: "NoTopLevelObjects",
-                            owner: self,
-                            bundle: bundle)
+            _ = try UIView.view(from: "NoTopLevelObjects",
+                                owner: self,
+                                bundle: bundle)
         }
 
         XCTAssertThrowsError(try execute()) { error in
             if let error = error as? NibLoadingError {
-                XCTAssertEqual(error, NibLoadingError.TopLevelObjectNotFound)
+                XCTAssertEqual(error, NibLoadingError.topLevelObjectNotFound)
             }
         }
     }
 
     func testMultipleTopLevelObjectsFound() {
         func execute() throws {
-            try UIView.view(fromNibNamed: "MultipleTopLevelObjects",
-                            owner: self,
-                            bundle: bundle)
+            _ = try UIView.view(from: "MultipleTopLevelObjects",
+                                owner: self,
+                                bundle: bundle)
         }
 
         XCTAssertThrowsError(try execute()) { error in
             if let error = error as? NibLoadingError {
-                XCTAssertEqual(error, NibLoadingError.MultipleTopLevelObjectsFound)
+                XCTAssertEqual(error, NibLoadingError.multipleTopLevelObjectsFound)
             }
         }
     }
