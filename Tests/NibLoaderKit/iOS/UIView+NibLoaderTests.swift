@@ -20,7 +20,7 @@ class UIViewNibLoaderKitTests: XCTestCase {
     }
 
     func testLoadFromClass() {
-        let testView: TestView = try! TestView.view(withOwner: self,
+        let testView: TestView = try! TestView.view(with: self,
                                                     bundle: bundle)
         XCTAssertEqual(testView.subviews.count, 1)
     }

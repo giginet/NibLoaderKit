@@ -1,7 +1,7 @@
 import UIKit
 
 public extension UIView {
-    static func view<T: UIView>(withOwner owner: AnyObject?,
+    static func view<T: UIView>(with owner: AnyObject?,
                      bundle: Bundle = Bundle.main) throws -> T {
         let className = String(describing: self)
         return try self.view(from: className, owner: owner, bundle: bundle)

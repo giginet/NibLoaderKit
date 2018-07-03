@@ -1,7 +1,7 @@
 import Cocoa
 
 public extension NSView {
-    static func view<T: NSView>(withOwner owner: AnyObject?,
+    static func view<T: NSView>(with owner: AnyObject?,
                      bundle: Bundle = Bundle.main) throws -> T {
         let className = String(describing: self)
         return try self.view(from: className, owner: owner, bundle: bundle)
