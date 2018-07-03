@@ -17,12 +17,15 @@ class NSViewNibLoaderKitTests: XCTestCase {
                                           bundle: bundle)
 
         XCTAssertEqual(testView.subviews.count, 1)
+        XCTAssertTrue(testView is TestView)
+        XCTAssertEqual(String(describing: type(of: testView)), "TestView")
     }
 
     func testLoadFromClass() {
         let testView: TestView = try! TestView.view(with: self,
                                                     bundle: bundle)
         XCTAssertEqual(testView.subviews.count, 1)
+        XCTAssertEqual(String(describing: type(of: testView)), "TestView")
     }
 
     func testNibNotFound() {
