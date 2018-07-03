@@ -2,16 +2,16 @@ import UIKit
 
 public extension UIView {
     static func view<T: UIView>(with owner: AnyObject?,
-                     bundle: Bundle = Bundle.main) throws -> T {
+                                bundle: Bundle = Bundle.main) throws -> T {
         let className = String(describing: self)
         return try self.view(from: className, owner: owner, bundle: bundle)
     }
 
     static func view<T: UIView>(from nibName: String,
-                     owner: AnyObject?,
-                     bundle: Bundle = Bundle.main) throws -> T {
+                                owner: AnyObject?,
+                                bundle: Bundle = Bundle.main) throws -> T {
 
-        guard let _ = bundle.path(forResource: nibName, ofType: "nib") else {
+        if bundle.path(forResource: nibName, ofType: "nib") == nil {
             throw NibLoadingError.nibNotFound
         }
 
