@@ -7,13 +7,6 @@ public extension NSView {
         return try self.view(from: className, owner: owner, bundle: bundle)
     }
 
-    @available(*, deprecated, renamed: "view(from:owner:bundle:)")
-    static func view<T: NSView>(fromNibNamed nibName: String,
-                     owner: AnyObject?,
-                     bundle: Bundle = Bundle.main) throws -> T {
-        fatalError()
-    }
-
     static func view<T: NSView>(from nibName: String,
                      owner: AnyObject?,
                      bundle: Bundle = Bundle.main) throws -> T {
