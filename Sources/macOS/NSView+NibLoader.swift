@@ -11,7 +11,7 @@ public extension NSView {
                      owner: AnyObject?,
                      bundle: Bundle = Bundle.main) throws -> T {
         var topLevelObjects: NSArray? = []
-        guard bundle.loadNibNamed(nibName, owner: owner, topLevelObjects: &topLevelObjects!),
+        guard bundle.loadNibNamed(NSNib.Name(rawValue: nibName), owner: owner, topLevelObjects: &topLevelObjects),
             let objects = topLevelObjects else {
             throw NibLoadingError.nibNotFound
         }
