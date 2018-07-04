@@ -3,6 +3,8 @@ matrix:
     - os: osx
       language: objective-c
       osx_image: xcode9
+      install:
+        - gem update cocoapods
       script: 
         - swiftlint --strict
         - pod lib lint
