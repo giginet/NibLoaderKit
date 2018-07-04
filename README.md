@@ -69,7 +69,7 @@ pod 'NibLoaderKit'
 - >= iOS 8
 - >= macOS 10.10
 - >= tvOS 9
-- Swift 4.0
+- Swift 4.1
 - Xcode 9.4
 
 ## LICENSE
