@@ -1,15 +1,15 @@
 import UIKit
 
 public extension UIView {
-    static func view<T: UIView>(with owner: AnyObject?,
-                                bundle: Bundle = Bundle.main) throws -> T {
+    class func view<T: UIView>(with owner: AnyObject?,
+                               bundle: Bundle = Bundle.main) throws -> T {
         let className = String(describing: self)
         return try self.view(from: className, owner: owner, bundle: bundle)
     }
 
-    static func view<T: UIView>(from nibName: String,
-                                owner: AnyObject?,
-                                bundle: Bundle = Bundle.main) throws -> T {
+    class func view<T: UIView>(from nibName: String,
+                               owner: AnyObject?,
+                               bundle: Bundle = Bundle.main) throws -> T {
 
         if bundle.path(forResource: nibName, ofType: "nib") == nil {
             throw NibLoadingError.nibNotFound
