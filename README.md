@@ -31,7 +31,7 @@ class CustomView: UIView { }
 ## 4. Load from the code
 
 ```swift
-let customView: CustomView = try! CustomView.view(withOwner: self)
+let customView: CustomView = try! CustomView.view(with: self)
 ```
 
 `CustomView.xib` will be loaded and generate the view.
