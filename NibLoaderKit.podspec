@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NibLoaderKit"
-  s.version      = "2.0.0"
+  s.version      = "3.0.0"
   s.summary      = "Tiny utility to load UIView/NSView from nibs"
   s.homepage     = "https://github.com/giginet/NibLoaderKit"
   s.license      = { :type => "MIT", :file => "LICENSE.md" }
@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.source_files  = "Sources/*.{h,swift}"
   s.ios.source_files = s.tvos.source_files = "Sources/iOS/*.{h,swift}"
   s.osx.source_files  = "Sources/macOS/*.{h,swift}"
+  s.swift_version = '4.1'
 
   s.requires_arc = true
 end

@@ -1,24 +1,17 @@
 import UIKit
 
 public extension UIView {
-    static func view<T: UIView>(withOwner owner: AnyObject?,
-                     bundle: Bundle = Bundle.main) throws -> T {
+    class func view<T: UIView>(with owner: AnyObject?,
+                               bundle: Bundle = Bundle.main) throws -> T {
         let className = String(describing: self)
         return try self.view(from: className, owner: owner, bundle: bundle)
     }
 
-    @available(*, deprecated, renamed: "view(from:owner:bundle:)")
-    static func view<T: UIView>(fromNibNamed nibName: String,
-                     owner: AnyObject?,
-                     bundle: Bundle = Bundle.main) throws -> T {
-        fatalError()
-    }
+    class func view<T: UIView>(from nibName: String,
+                               owner: AnyObject?,
+                               bundle: Bundle = Bundle.main) throws -> T {
 
-    static func view<T: UIView>(from nibName: String,
-                     owner: AnyObject?,
-                     bundle: Bundle = Bundle.main) throws -> T {
-
-        guard let _ = bundle.path(forResource: nibName, ofType: "nib") else {
+        if bundle.path(forResource: nibName, ofType: "nib") == nil {
             throw NibLoadingError.nibNotFound
         }
 

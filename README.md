@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/giginet/NibLoaderKit.svg?branch=master)](https://travis-ci.org/giginet/NibLoaderKit) 
 [![codecov](https://codecov.io/gh/giginet/NibLoaderKit/branch/master/graph/badge.svg)](https://codecov.io/gh/giginet/NibLoaderKit)
-[![Language](https://img.shields.io/badge/language-Swift%203-orange.svg)](https://swift.org)
+[![Language](https://img.shields.io/badge/language-Swift%204.1-orange.svg)](https://swift.org)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) 
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/NibLoaderKit.svg)](http://cocoadocs.org/docsets/NibLoaderKit)
 [![Platform](https://img.shields.io/cocoapods/p/NibLoaderKit.svg?style=flat)](http://cocoadocs.org/docsets/NibLoaderKit)
@@ -31,7 +31,7 @@ class CustomView: UIView { }
 ## 4. Load from the code
 
 ```swift
-let customView: CustomView = try! CustomView.view(withOwner: self)
+let customView: CustomView = try! CustomView.view(with: self)
 ```
 
 `CustomView.xib` will be loaded and generate the view.
@@ -69,8 +69,8 @@ pod 'NibLoaderKit'
 - >= iOS 8
 - >= macOS 10.10
 - >= tvOS 9
-- Swift 3.0
-- Xcode 8.x
+- Swift 4.0
+- Xcode 9.4
 
 ## LICENSE
 
